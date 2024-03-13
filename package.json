@@ -10,6 +10,7 @@
     "url": "git+https://github.com/PBaan93/MMM-Homey-BetterLogic.git"
   },
   "dependencies": {
+    "request": "^2.88.2",
     "sprintf-js": ""
   }
 }

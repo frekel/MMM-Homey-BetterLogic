@@ -202,8 +202,8 @@ Module.register("MMM-Homey-BetterLogic",{
             if(payload.data && payload.data.statusCode === 200){
                 this.debugmsg("process result:"+payload.id+" data:"+payload.data.body);
                 var bodyObject = JSON.parse(payload.data.body);
-                this.debugmsg("Value:"+bodyObject.result.value);
-                this.processResult(payload.id, bodyObject.result.value);
+                this.debugmsg("Value:"+bodyObject.value);
+                this.processResult(payload.id, bodyObject.value);
             }
         }
     },
